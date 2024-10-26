@@ -1,0 +1,70 @@
+body {
+    background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgb(0, 0, 0) 100%), 
+        url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/33c3ee76009313.5c5ca8e8c3867.jpg');
+    background-size: 100% 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 0;
+    padding-top: 50px;
+    background-color: black;
+}
+
+header {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+
+.texto {
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.contenedor-principal {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.columna-izquierda {
+    flex: 3;
+}
+
+.contenedorderecha {
+    flex: 1;
+    background-color: rgba(216, 174, 98, 0.65);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 10px rgba(109, 0, 252, 0.2);
+    min-height: 600px;
+    margin-bottom: 20px;
+}
+
+.caja, .contenedor, .contenedor2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: rgba(216, 174, 98, 0.65);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 10px rgba(109, 0, 252, 0.2);
+    margin-bottom: 20px;
+}
+
+.champ-icon-facil {
+    border: 3px solid rgba(0, 0, 255, 0.65);
+}
+
+.champ-icon-dificil {
+    border: 3px solid rgba(255, 0, 0, 0.65);
+}
+
+.champ-icon-medio {
+    border: 3px solid rgba(229, 255, 0, 0.65);
+}
